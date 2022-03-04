@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact</h1>
+    <table cellspacing="10">
+      <tr>
+        <td>Name:</td>
+        <td>Kannan Vellaichamy</td>
+      </tr>
+      <tr>
+        <td>Phone:</td>
+        <td>+91 7349334811</td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td>techiekannanv@gmail.com</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Submit your Query</h3>
+    <form
+      action="mailto:techiekannanv@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <table>
+        <tr>
+          <td>
+            <label for="name">Your Name:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="name"
+              name="guestname"
+              size="50"
+              placeholder="Enter your name"
+            />
+            <br />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email:</label>
+          </td>
+          <td>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              size="50"
+              placeholder="Enter your email"
+            />
+            <br />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="query">Your Query:</label>
+          </td>
+          <td>
+            <textarea
+              name="query"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Enter your query"
+            ></textarea>
+            <br />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" name="submit" id="" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
